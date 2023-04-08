@@ -39,11 +39,11 @@ const About = () => {
         variants={("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in typescript and
-        javascript and expertise in frameworks like React. Node.js, and
-        Three.js. I'm a quick learner and collaorate closely with clients to
-        create efficient, scalable and user-friendly solutions that solve
-        real-world problems. Let's work together to brings your ideas to life!
+        As a passionate full stack developer, I am developing my expertise in
+        building and deploying web-based applications that incorporate a range
+        of technologies. I aspire to combine my technical skills to excel as a
+        full stack developer, leveraging my knowledge in both frontend and
+        backend development to create comprehensive and effective web solutions.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
