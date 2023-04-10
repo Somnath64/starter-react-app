@@ -19,6 +19,8 @@ import deloitte from "./company/Deloitte.webp";
 import todolist from "./todolist.png";
 import portfolio from "./portfolio.png";
 import mapty from "./mapty.png";
+import maptyIcon from "./icon.png";
+import portfoiloIcon from "./sb-fevicon.png";
 
 export {
   logo,
@@ -42,4 +44,6 @@ export {
   todolist,
   portfolio,
   mapty,
+  maptyIcon,
+  portfoiloIcon,
 };

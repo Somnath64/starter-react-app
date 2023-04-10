@@ -16,6 +16,8 @@ import {
   todolist,
   portfolio,
   mapty,
+  maptyIcon,
+  portfoiloIcon,
 } from "../assets";
 
 export const navLinks = [
@@ -35,7 +37,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Front End Developer",
     icon: web,
   },
   {
@@ -111,7 +113,7 @@ const projects = [
   {
     name: "TODO List",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "TODO list web application that utilized a CRUD RESTful API built with Node.js. The application exposed POST, GET, PATCH, and DELETE HTTP methods using Express and EJS, allowing users to create, read, update, and delete TODO list items.",
     tags: [
       {
         name: "Express",
@@ -127,7 +129,9 @@ const projects = [
       },
     ],
     image: todolist,
+    icon: todolist,
     source_code_link: "https://github.com/Somnath64/todolist",
+    link: "https://healthy-lion-dirndl.cyclic.app/",
   },
   {
     name: "Portfolio Website",
@@ -148,7 +152,9 @@ const projects = [
       },
     ],
     image: portfolio,
-    source_code_link: "https://github.com/",
+    icon: portfoiloIcon,
+    source_code_link: "https://github.com/Somnath64/",
+    link: "#",
   },
   {
     name: "Mapty App",
@@ -169,7 +175,9 @@ const projects = [
       },
     ],
     image: mapty,
-    source_code_link: "https://somnath64.github.io/mapty-app/",
+    icon: maptyIcon,
+    source_code_link: "https://github.com/Somnath64/mapty-app",
+    link: "https://somnath64.github.io/mapty-app/",
   },
 ];
 
